@@ -74,3 +74,44 @@ p{
         transform: translateX(0);
     }
 }
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
