@@ -17,6 +17,9 @@ body{
 
 /* estilos del header */
 
+header{
+  text-align: center;
+}
 .container{
     max-width: 1300px;
     margin: auto;
@@ -24,15 +27,15 @@ body{
     padding-right: 25px;
 }
 .navbar{
-    display: flex;
+    display: inline-block;
     padding: 10px;
     margin: 7px 0 7px;
-    align-items: center;
+    text-align: end;
     border-bottom: #5555551c 1px solid;
 }
 nav{
     flex: 1;
-    text-align: right;
+    text-align: end;
 }
 nav ul{
     display: inline-block;
@@ -45,23 +48,28 @@ nav ul li{
 nav ul li a:hover{
   color: #FE902F;
 }
+.logo{
+  display: inline;
+  position: absolute;
+ 
+}
 .logo a img{
-    width: 10%;
+    width: 40px; 
 }
 .nav-cart{
   width: 5%;
 }
 a{
-    text-decoration: none;
-    color: var(--text-color);
-    font-weight: 700;
-    font-style: normal;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 700;
+  font-style: normal;
 }
 p{
     color: var(--text-color);
 }
 
-/* estilos del main - index */
+/* estilos del main - index (no entra en la pre entrega)*/
 
 .header-slider{
     position: relative;
@@ -341,7 +349,7 @@ footer {
   padding: 40px 20px;
   font-family: Arial, sans-serif;
 }
-
+/* display flex (no entra en preentrega) */
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -377,6 +385,7 @@ footer {
 .footer-section ul li a:hover {
   color: #FE902F;
 }
+/* display flex (no entra en preentrega) */
 .newsletter-form {
   display: flex;
   margin-top: 20px;
