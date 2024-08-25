@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,34 +17,48 @@
     <header class="container">
         <div class="navbar">
             <div class="logo">
-                <a href="./index.html">
-                    <img src="./img/logo.png" alt="logo de una hamburguesa">
+                <a href="../index.html">
+                    <img src="../img/logo.png" alt="logo de una hamburguesa">
                 </a>
             </div>
-         <nav>
+        <nav>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/menu.html">Menu</a></li>
-                <li><a href="./pages/shops.html">Shops</a></li>
-                <li><a href="./pages/ordernow.html"><img class="nav-cart" src="./img/cart.png" alt="cart"></a></li>
-                <li><a href="./pages/sigin.html">Sign In</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./shops.html">Shops</a></li>
+                <li><a href="./ordernow.html"><img class="nav-cart" src="../img/cart.png" alt="cart"></a></li>
+                <li><a href="./sigin.html">Sign In</a></li>
             </ul>
         </nav>   
         </div>
-   
+
     </header>
 
     
 <!-- contenido principal -->
 
     <main>
-        <div class="header-slider">
-            <ul>
-                <img src="./img/streat-09_1.png" class="header-img" alt="">
-                <img src="./img/streat-10.png" class="header-img" alt="">
-                <img src="./img/streat-11.png" class="header-img" alt="">
-                
-            </ul>
+        <div class="container login-container">
+            <div class="login-logo">
+                <!-- Aquí puedes colocar el logo de Shake Shack o un texto representativo -->
+                <img src="../img/logo.png" alt="Shake Shack Logo">
+            </div>
+            <div class="login-form">
+                <h2>Log In</h2>
+                <form action="#" method="POST">
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="example@email.com" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="../index.html">Forget your password?</a>
+                    </div>
+                    <button type="submit" class="login-button">Log In</button>
+                    
+                </form>
+            </div>
         </div>
     </main>
 
@@ -108,7 +122,7 @@
             <a href="#">Sitemap</a>
         </div>
         <div class="copy">
-            <p>&copy;2016-2024 Streat Burger | Jorge Pinto. All Rights Reserved.</p>       
+            <p>&copy;2016-2024 Streat Burger | Jorge Pinto. All Rights Reserved.</p>
         </div>
     </div>
 </footer>

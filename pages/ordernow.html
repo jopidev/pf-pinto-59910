@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,34 +17,64 @@
     <header class="container">
         <div class="navbar">
             <div class="logo">
-                <a href="./index.html">
-                    <img src="./img/logo.png" alt="logo de una hamburguesa">
+                <a href="../index.html">
+                    <img src="../img/logo.png" alt="logo de una hamburguesa">
                 </a>
             </div>
-         <nav>
+        <nav>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/menu.html">Menu</a></li>
-                <li><a href="./pages/shops.html">Shops</a></li>
-                <li><a href="./pages/ordernow.html"><img class="nav-cart" src="./img/cart.png" alt="cart"></a></li>
-                <li><a href="./pages/sigin.html">Sign In</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./shops.html">Shops</a></li>
+                <li><a href="./ordernow.html"><img class="nav-cart" src="../img/cart.png" alt="cart"></a></li>
+                <li><a href="./sigin.html">Sign In</a></li>
             </ul>
         </nav>   
         </div>
-   
+
     </header>
 
     
 <!-- contenido principal -->
 
     <main>
-        <div class="header-slider">
-            <ul>
-                <img src="./img/streat-09_1.png" class="header-img" alt="">
-                <img src="./img/streat-10.png" class="header-img" alt="">
-                <img src="./img/streat-11.png" class="header-img" alt="">
+        <div class="container container-shop">
+            <!-- Encabezado -->
+            <h1>Order</h1>
+            
+            <!-- Sección de productos -->
+            <div class="products-section">
+                <h2>Products</h2>
+                <a href="#" class="clear-cart">Clear</a>
                 
-            </ul>
+                <!-- Producto individual -->
+                <div class="product-item">
+                    <img src="../img/burger1.png" alt="Producto" class="product-image">
+                    <div class="product-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+                        <a href="#" class="edit-link">Edit</a>
+                    </div>
+                    <div class="product-price">$ 4.990</div>
+                    <div class="product-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span class="quantity-value">1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sección de total y promoción -->
+            <div class="summary-section">
+                <div class="promo-code">
+                    <input type="text" placeholder="Códigos de descuento">
+                    <button>Add</button>
+                </div>
+                <div class="total-summary">
+                    <p>Subtotal <span class="subtotal">$ 4.990</span></p>
+                    <h3>Total <span class="total">$ 4.990</span></h3>
+                </div>
+                <button class="checkout-btn">Buy</button>
+            </div>
         </div>
     </main>
 
@@ -108,7 +138,7 @@
             <a href="#">Sitemap</a>
         </div>
         <div class="copy">
-            <p>&copy;2016-2024 Streat Burger | Jorge Pinto. All Rights Reserved.</p>       
+            <p>&copy;2016-2024 Streat Burger | Jorge Pinto. All Rights Reserved.</p>
         </div>
     </div>
 </footer>
