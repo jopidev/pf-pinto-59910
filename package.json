@@ -1,0 +1,11 @@
+{
+  "name": "pf-pinto",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene la **PreEntrega 2** del Proyecto Final para el curso de **Desarrollo Web** en Coderhouse. El proyecto es un sitio web estático para una hamburguesería llamado **Streat Burger**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

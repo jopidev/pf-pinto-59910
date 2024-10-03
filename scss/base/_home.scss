@@ -1,0 +1,161 @@
+/* import variables */
+
+@import "../utilidades/variables";
+
+/* import mixin */
+@import "../utilidades/mixin";
+
+/* estilos */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 8px;
+  font-weight: bold;
+}
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin-right: 20px;
+  }
+  a {
+    padding-bottom: 5px;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    ::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background-color: $color-principal-background;
+      transform: scaleX(0);
+      transform-origin: bottom left;
+      transition: transform 0.3s ease;
+    }
+    :hover::after {
+      transform: scaleX(1);
+    }
+  }
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-right {
+  @include flex-center-align;
+  a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    :hover {
+      transform: scale(1.1);
+    }
+  }
+}
+/* BUTTONS */
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.btn-primary {
+  font-weight: bold;
+  color: #000;
+  background-color: white;
+  border: #000 solid 1px;
+  :hover {
+    background-color: black;
+    color: white;
+  }
+}
+.btn-secondary {
+  font-weight: bold;
+  background-color: $color-principal-background;
+  border: #fe902f solid 2px;
+  :hover {
+    background-color: white;
+    color: $color-principal-background;
+    border: $color-principal-background solid 2px;
+  }
+}
+.d-flex {
+  gap: 10px;
+}
+.nav-cart {
+  height: 24px;
+}
+/* HEADER - LOGO */
+.navbar-brand img {
+  height: 40px;
+}
+.navbar-movil {
+  @include flex-between;
+}
+/* INDEX - STYLES */
+.header-slider {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+.header-img {
+  display: flex;
+  width: 300%; /* 100% por cada imagen, y tienes 3 imágenes */
+  height: 100vh;
+  animation: slide 15s infinite;
+  img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, #000000 83%, transparent 100%);
+  }
+}
+.slide {
+  position: relative;
+  width: 100vw; /* Cada imagen ocupa el 100% del contenedor */
+  height: 100vh;
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(-100vw);
+    }
+    53.33% {
+      transform: translateX(-100vw);
+    }
+    66.66% {
+      transform: translateX(-200vw);
+    }
+    86.66% {
+      transform: translateX(-200vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+.caption {
+  position: absolute;
+  top: 33.3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  max-width: 100%;
+  display: none;
+  span {
+    font-weight: bold;
+    font-size: 300%;
+  }
+}
