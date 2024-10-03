@@ -1,6 +1,6 @@
 Streat Burger - Proyecto Final en Curso...(Revisar ramas para ver cada PreEntrega)
 
-Este repositorio contiene la ultima PreEntrega solicitada (PreEntrega 2) del Proyecto Final para el curso de Desarrollo Web en Coderhouse. El proyecto es un sitio web estático para una hamburguesería llamado Streat Burger.
+Este repositorio contiene la ultima PreEntrega solicitada (PreEntrega 3) del Proyecto Final para el curso de Desarrollo Web en Coderhouse. El proyecto es un sitio web estático para una hamburguesería llamado Streat Burger.
 Descripción
 
 El sitio web incluye las siguientes secciones:
@@ -16,6 +16,7 @@ Tecnologías utilizadas
     HTML: Estructura del contenido web.
     CSS: Estilo y diseño del sitio web.
     Bootstrap: Framework CSS para el diseño y la disposición de los elementos.
+    Sass: Preprocesador de Css.
 
 Instalación y ejecución
 
