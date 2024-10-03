@@ -1,0 +1,27 @@
+/* Teléfonos móviles (Paisaje) */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .caption {
+    display: block;
+  }
+  .navbar-movil {
+    width: 100%;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .item {
+    width: 100%; /* Para 2 columnas en pantallas más pequeñas */
+  }
+  .header-menu {
+    padding: 0.5rem 1rem 0 2rem;
+  }
+}
