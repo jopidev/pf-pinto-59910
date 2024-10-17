@@ -39,7 +39,7 @@ body {
   text-decoration: none;
   color: #333;
 }
-.navbar-menu a ::after {
+.navbar-menu a::after {
   content: "";
   display: block;
   position: absolute;
@@ -52,7 +52,7 @@ body {
   transform-origin: bottom left;
   transition: transform 0.3s ease;
 }
-.navbar-menu a :hover::after {
+.navbar-menu a:hover::after {
   transform: scaleX(1);
 }
 
@@ -70,7 +70,7 @@ body {
   font-weight: bold;
   color: #333;
 }
-.navbar-right a :hover {
+.navbar-right a:hover {
   transform: scale(1.1);
 }
 
@@ -86,7 +86,7 @@ body {
   background-color: white;
   border: #000 solid 1px;
 }
-.btn-primary :hover {
+.btn-primary:hover {
   background-color: black;
   color: white;
 }
@@ -96,7 +96,7 @@ body {
   background-color: #fe902f;
   border: #fe902f solid 2px;
 }
-.btn-secondary :hover {
+.btn-secondary:hover {
   background-color: white;
   color: #fe902f;
   border: #fe902f solid 2px;
@@ -250,7 +250,7 @@ body {
   cursor: pointer;
   margin-top: 10px;
 }
-.item button :hover {
+.item button:hover {
   color: white;
   background-color: #fe902f;
   transition: 0.7s;
@@ -312,7 +312,7 @@ body {
   margin-top: 10px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.login-button :hover {
+.login-button:hover {
   background-color: #df7e29;
 }
 
@@ -320,7 +320,7 @@ body {
   color: #fe902f;
   text-decoration: none;
 }
-.forgot-password a :hover {
+.forgot-password a:hover {
   text-decoration: underline;
 }
 
@@ -330,7 +330,7 @@ body {
   justify-content: end;
   text-decoration: none;
 }
-.clear-cart :hover {
+.clear-cart:hover {
   color: #fe902f;
 }
 
@@ -417,7 +417,7 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.promo-code button :hover {
+.promo-code button:hover {
   background-color: #fe902f;
 }
 
@@ -447,7 +447,7 @@ body {
   margin: 20px 0 20px 15px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.checkout-btn :hover {
+.checkout-btn:hover {
   background-color: #df7e29;
 }
 
@@ -488,7 +488,7 @@ footer {
   text-decoration: none;
   transition: color 0.3s;
 }
-.footer-section ul li a :hover {
+.footer-section ul li a:hover {
   color: #fe902f;
 }
 
@@ -516,7 +516,7 @@ footer {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.newsletter-form button :hover {
+.newsletter-form button:hover {
   background-color: #fe902f;
 }
 
@@ -533,7 +533,7 @@ footer {
   margin: 0 5px;
   font-size: small;
 }
-.footer-bottom-links a :hover {
+.footer-bottom-links a:hover {
   color: #fe902f;
 }
 

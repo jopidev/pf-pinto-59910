@@ -26,7 +26,7 @@
     position: relative;
     text-decoration: none;
     color: #333;
-    ::after {
+    &::after {
       content: "";
       display: block;
       position: absolute;
@@ -39,7 +39,7 @@
       transform-origin: bottom left;
       transition: transform 0.3s ease;
     }
-    :hover::after {
+    &:hover::after {
       transform: scaleX(1);
     }
   }
@@ -54,7 +54,7 @@
     text-decoration: none;
     font-weight: bold;
     color: #333;
-    :hover {
+    &:hover {
       transform: scale(1.1);
     }
   }
@@ -69,7 +69,7 @@
   color: #000;
   background-color: white;
   border: #000 solid 1px;
-  :hover {
+  &:hover {
     background-color: black;
     color: white;
   }
@@ -78,7 +78,7 @@
   font-weight: bold;
   background-color: $color-principal-background;
   border: #fe902f solid 2px;
-  :hover {
+  &:hover {
     background-color: white;
     color: $color-principal-background;
     border: $color-principal-background solid 2px;

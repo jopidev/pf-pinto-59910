@@ -30,7 +30,7 @@ footer {
         color: #fff;
         text-decoration: none;
         transition: color 0.3s;
-        :hover {
+        &:hover {
           color: #fe902f;
         }
       }
@@ -59,7 +59,7 @@ footer {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  :hover {
+  &:hover {
     background-color: #fe902f;
   }
 }
@@ -74,7 +74,7 @@ footer {
   text-decoration: none;
   margin: 0 5px;
   font-size: small;
-  :hover {
+  &:hover {
     color: #fe902f;
   }
 }
