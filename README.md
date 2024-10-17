@@ -1,23 +1,31 @@
-# Streat Burger - PreEntrega 2
+# Streat Burger - Entrega Final
 
-Este repositorio contiene la **PreEntrega 2** del Proyecto Final para el curso de **Desarrollo Web** en Coderhouse. El proyecto es un sitio web estático para una hamburguesería llamado **Streat Burger**.
+Este repositorio contiene la **Entrega Final** del Proyecto Final para el curso de **Desarrollo Web** en Coderhouse. El proyecto es un sitio web estático para una hamburguesería llamada **Streat Burger**.
 
 ## Descripción
 
-El sitio web incluye las siguientes secciones:
-- **Home**: Página principal con un slider de imágenes.
-- **Menu**: Página que muestra el menú de la hamburguesería.
-- **Shops**: Página con la información de las tiendas.
-- **Sign In**: Página para que los usuarios inicien sesión.
-- **Your Order**: Página para realizar pedidos.
+El sitio web cuenta con las siguientes secciones:
 
-## Tecnologías utilizadas
+- **Home**: Página principal que presenta un slider de imágenes atractivas.
+- **Menu**: Página dedicada a mostrar el menú de hamburguesas y otros productos disponibles.
+- **Shops**: Página con información sobre las diferentes tiendas y sus ubicaciones.
+- **Sign In**: Página donde los usuarios pueden iniciar sesión en sus cuentas.
+- **Your Order**: Página para que los usuarios realicen y gestionen sus pedidos.
 
-- **HTML**: Estructura del contenido web.
-- **CSS**: Estilo y diseño del sitio web.
-- **Bootstrap**: Framework CSS para el diseño y la disposición de los elementos.
+## Tecnologías Utilizadas
 
-## Instalación y ejecución
+Este proyecto ha sido desarrollado utilizando las siguientes tecnologías:
+
+- **HTML**: Para la estructura del contenido web.
+- **CSS**: Para el estilo y diseño del sitio web.
+- **Bootstrap**: Framework CSS que facilita el diseño y la disposición de los elementos.
+- **Sass**: Preprocesador CSS que permite un estilo más organizado y modular.
+
+- Adicional se realizo optimizacion de imagenes y SEO.
+
+## Instalación y Ejecución
+
+Para clonar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona este repositorio:
 
